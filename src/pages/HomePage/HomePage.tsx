@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
-import {data} from '../../mocks/YWCData';
+// import {data} from '../../mocks/YWCData';
+import { Datasource } from '../../Datasource';
 import { HomePageState } from './HomePageTypes'
 class Home extends Component<object, HomePageState> {
-
   constructor(props: object) {
     super(props);
 
@@ -18,9 +18,11 @@ class Home extends Component<object, HomePageState> {
   }
 
   componentDidMount() {
-    this.setState({
-      pageInfo: data,
-      num : 2
+    const fuck = Datasource.getData();
+    fuck.then(res => {
+      this.setState({
+        pageInfo:res
+      })
     })
   }
   render() {
