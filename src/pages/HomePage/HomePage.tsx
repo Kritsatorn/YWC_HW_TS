@@ -1,7 +1,9 @@
 import React,{Component} from 'react';
 // import {data} from '../../mocks/YWCData';
+import  Header  from '../../components/Header/Header';
 import { Datasource } from '../../Datasource';
 import { HomePageState } from './HomePageTypes'
+
 class Home extends Component<object, HomePageState> {
   constructor(props: object) {
     super(props);
@@ -29,7 +31,7 @@ class Home extends Component<object, HomePageState> {
     console.log(this.state.pageInfo);
     return (
       <div>
-        FUCK
+        <Header />
       </div>
     );
   }
