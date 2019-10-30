@@ -32,6 +32,7 @@ class Home extends Component<object, HomePageState> {
     return (
       <div>
         <Header />
+        <hr />
       </div>
     );
   }
