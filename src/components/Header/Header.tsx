@@ -1,24 +1,49 @@
 import React,{Component} from 'react';
-import {HeaderState } from './HeaderState';
+import { HeaderProps } from './HeaderState';
 import './Header.css'
 
-class Header extends Component<object,HeaderState> {
+class Header extends Component<object,HeaderProps> {
 
+  constructor(props: object) {
+    super(props);
+    this.state = {
+      navbarItems: [
+        {label: "ลงทะเบียนเข้าร่วมมาตรการ",
+        href: "https://regist.ชิมช้อปใช้.com/Register/"},
+        {label: "ขั้นตอนการเข้าร่วม",
+        href: "https://regist.ชิมช้อปใช้.com/Register/"},
+        {label: "ร้านค้าที่เข้าร่วม",
+        href: "https://regist.ชิมช้อปใช้.com/Register/"},
+      ]
+    }
+    this.renderNav = this.renderNav.bind(this);
+  }
   render() {
     return(
       <div className="head">
-        <div className="box">
-          <div className="l">ลงทะเบียนเข้าร่วมมาตรการ</div>
-          <div className="l">ขั้นตอนการเข้าร่วม</div>
-          <div className="l">ร้านค้าที่เข้าร่วม</div>
-          {/* <ul>
-            <li>ลงทะเบียนเข้าร่วมมาตรการ</li>
-            <li>ขั้นตอนการเข้าร่วม</li>
-            <li>ร้านค้าที่เข้าร่วม</li>
-          </ul> */}
-        </div>
+        <ul className="box">
+          {this.renderNav(this.state.navbarItems)}
+        </ul>
       </div>
     )
+  }
+
+  renderNav  ( navbarItems : {
+    label: string,
+    href: string
+  }[])  {
+    return (
+      navbarItems.map( (navbarItem,index) => {
+        return (
+          <li
+            key = {index}
+            className="l"
+          >
+            {navbarItem.label}
+          </li>
+        );
+      })
+    );
   }
 }
 

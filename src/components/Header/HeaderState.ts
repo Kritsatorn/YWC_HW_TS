@@ -1,3 +1,6 @@
-export interface HeaderState{
-
+export interface HeaderProps{
+  navbarItems: {
+    label: string,
+    href: string
+  }[]
 }

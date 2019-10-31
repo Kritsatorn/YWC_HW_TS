@@ -1,0 +1,31 @@
+.img-1 {
+  height: 242px;
+
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-2 {
+  height: 242px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-3 {
+  height: 242px;
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-4 {
+  height: 133px;
+  width: 110px;
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/logo/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

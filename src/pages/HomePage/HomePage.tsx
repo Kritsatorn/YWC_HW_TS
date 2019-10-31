@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
 // import {data} from '../../mocks/YWCData';
 import  Header  from '../../components/Header/Header';
+import Banner from '../../components/Banner/Banner';
 import { Datasource } from '../../Datasource';
 import { HomePageState } from './HomePageTypes'
-
+import './HomePage.css'
 class Home extends Component<object, HomePageState> {
   constructor(props: object) {
     super(props);
@@ -17,6 +18,18 @@ class Home extends Component<object, HomePageState> {
         condition: ''
       }
     };
+
+  }
+
+
+  render() {
+    console.log(this.state.pageInfo);
+    return (
+      <div>
+          <Header />
+          <Banner />
+      </div>
+    );
   }
 
   componentDidMount() {
@@ -27,15 +40,7 @@ class Home extends Component<object, HomePageState> {
       })
     })
   }
-  render() {
-    console.log(this.state.pageInfo);
-    return (
-      <div>
-        <Header />
-        <hr />
-      </div>
-    );
-  }
+
 }
 
 export default Home;
