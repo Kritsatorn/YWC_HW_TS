@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Kritsatorn/YWC_HW_TS",
+  "homepage": "https://github.com/Kritsatorn/YWC_HW_TS/web",
   "dependencies": {
     "@types/jest": "24.0.21",
     "@types/node": "12.12.0",
