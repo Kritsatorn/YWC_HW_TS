@@ -20,10 +20,10 @@ class Header extends Component<object,HeaderProps> {
   }
   render() {
     return(
-      <div className="head">
-        <ul className="box">
-          {this.renderNav(this.state.navbarItems)}
-        </ul>
+      <div className="container-fluid">
+          <ul className="box">
+            {this.renderNav(this.state.navbarItems)}
+          </ul>
       </div>
     )
   }

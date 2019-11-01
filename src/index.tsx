@@ -6,6 +6,7 @@ import { Route, Switch, Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import './index.css';
 
+
 ReactDOM.render(
   <Router history = {history}>
   <Switch>
