@@ -1,16 +1,16 @@
 import React,{Component} from 'react';
-// import {data} from '../../mocks/YWCData';
-import  Header  from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
-import Announce from '../../components/Announce/Announce';
 import Detail from '../../components/Detail/Detail';
+import Header  from '../../components/Header/Header';
+import Announce from '../../components/Announce/Announce';
+import Footer from '../../components/Footer/Footer';
 import FooterLogo from '../../components/FooterLogo/FooterLogo';
+import { HomePageState } from './HomePageTypes';
 import { Datasource } from '../../Datasource';
-import { HomePageState } from './HomePageTypes'
-import 'bootstrap/dist/css/bootstrap.css'
 import {DataFacade} from '../../DataFacade';
 import './HomePage.css'
-import Footer from '../../components/Footer/Footer';
+import 'bootstrap/dist/css/bootstrap.css'
+
 class Home extends Component<object, HomePageState> {
   constructor(props: object) {
     super(props);
@@ -42,7 +42,7 @@ class Home extends Component<object, HomePageState> {
     // console.log(this.state.pageInfo);
     console.log(this.state.Navbar);
     return (
-      <div>
+      <div className="font">
           <Header
             // navbarItems = {this.state.Navbar}
           />

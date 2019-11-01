@@ -4,14 +4,11 @@ import './FooterLogo.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import image from '../../assets/image.json';
 class FooterLogo extends Component<object, FooterLogoState> {
-  constructor(props: object){
-    super(props)
-  }
 
-  render() {
+ render() {
     return(
       <div >
-      <div className="row my-5 mx-auto">
+      <div className="row mt-5">
         <div className="col-lg-4 col-12 text-center ig">
           <img src={image.Call3} alt="Call3"/>
         </div>
@@ -25,7 +22,7 @@ class FooterLogo extends Component<object, FooterLogoState> {
         </div>
       </div>
 
-      <div className="row my-5 mx-auto">
+      <div className="row mt-5">
         <div className="col-lg-2 col-sm-4 col-4 text-center">
           <img className="logo-image"src={image.logo1} alt="mof"/>
         </div>

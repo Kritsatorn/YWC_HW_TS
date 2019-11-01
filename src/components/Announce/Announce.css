@@ -1,9 +1,12 @@
 
 .box-register {
-  font-family: TATSanaSuksaBold;
   text-align: center;
   margin: 26px 0px;
   font-weight: bold;
+}
+
+.text {
+  color: #333333;
 }
 
 .time {
@@ -11,7 +14,15 @@
   font-size: 48px;
   color: #E6332A;
 }
+.card-announce {
+  border: none;
+}
 .announce {
   background: #213ABF;
   font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(28, 78, 132, 0.4);
+  background-color: #213A8F;
+
 }

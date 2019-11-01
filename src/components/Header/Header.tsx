@@ -18,15 +18,13 @@ class Header extends Component<object,HeaderProps> {
         })
       })
     }
-
     this.renderNav = this.renderNav.bind(this);
   }
+
   render() {
-    const navbarItems = this.props;
-    // console.log(navbarItems)
     return(
       <div className="container-fluid">
-          <ul className="box">
+          <ul className="fix-box">
             {this.renderNav(this.state.navbarItems)}
           </ul>
       </div>
@@ -42,9 +40,9 @@ class Header extends Component<object,HeaderProps> {
         return (
           <li
             key = {index}
-            className="l"
+            className="fix-li"
           >
-           <a href={navbarItem.href}  className="l2">{navbarItem.label}</a>
+           <a href={navbarItem.href}  className="fix-li-2">{navbarItem.label}</a>
           </li>
         );
       })

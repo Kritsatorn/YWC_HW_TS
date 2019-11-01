@@ -1,11 +1,5 @@
-.head{
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 0 15px;
-  /* background-color: red; */
-}
 
-.box {
+.fix-box {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -13,7 +7,7 @@
   padding: 5px 0px 0px 0px;
   /* background-color: blue; */
 }
-.l {
+.fix-li {
   display: inline-block;
   padding: 14px 15px;
   font-family: 'Kanit', sans-serif;
@@ -27,6 +21,6 @@
   position: relative
 }
 
-.l2 {
+.fix-li-2 {
   color: #333333;
 }
