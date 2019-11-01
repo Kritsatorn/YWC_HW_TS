@@ -12,15 +12,15 @@ class FooterLogo extends Component<object, FooterLogoState> {
     return(
       <div >
       <div className="row my-5 mx-auto">
-        <div className="col-lg-4 col-12 text-center">
+        <div className="col-lg-4 col-12 text-center ig">
           <img src={image.ktbCall} alt="ktbCall"/>
         </div>
 
-        <div className="col-lg-4 col-12 text-center">
+        <div className="col-lg-4 col-12 text-center ig">
           <img src={image.cgdCall} alt="cgdCall"/>
         </div>
 
-        <div className="col-lg-4 col-12 text-center">
+        <div className="col-lg-4 col-12 text-center ig">
           <img src={image.tatCall} alt="tatCall"/>
         </div>
       </div>
