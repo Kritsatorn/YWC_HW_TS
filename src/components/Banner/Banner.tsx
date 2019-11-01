@@ -8,7 +8,7 @@ class Banner extends Component<object,BannerState> {
 
   render() {
     return(
-      <div className="container box-img">
+
         <div className="row row-img">
           <div className="col-4 img-1"></div>
           <div className="col-4 img-2">
@@ -16,7 +16,7 @@ class Banner extends Component<object,BannerState> {
           </div>
           <div className="col-4 img-3"></div>
         </div>
-      </div>
+
     );
   }
 }

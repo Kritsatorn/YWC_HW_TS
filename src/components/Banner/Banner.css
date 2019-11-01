@@ -1,12 +1,12 @@
 .img-1 {
-  height: 242px;
+  height:350px;
 
   background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .img-2 {
-  height: 242px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,16 +15,15 @@
   background-size: cover;
 }
 .img-3 {
-  height: 242px;
+  height: 350px;
   background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .img-4 {
   margin: auto;
-  height: 133px;
-  width: 110px;
+  width: 9rem;
+  height: 10rem;
   background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/logo/banner.png");
   background-repeat: no-repeat;
   background-size: cover;

@@ -8,6 +8,7 @@ import FooterLogo from '../../components/FooterLogo/FooterLogo';
 import { Datasource } from '../../Datasource';
 import { HomePageState } from './HomePageTypes'
 import 'bootstrap/dist/css/bootstrap.css'
+import {DataFacade} from '../../DataFacade';
 import './HomePage.css'
 import Footer from '../../components/Footer/Footer';
 class Home extends Component<object, HomePageState> {
@@ -23,6 +24,15 @@ class Home extends Component<object, HomePageState> {
         condition: ''
       }
     };
+
+    // const data = DataFacade.getNavbar();
+    // if( data !== null){
+    //   data.then(result => {
+    //     this.setState({
+
+    //     })
+    //   })
+    // }
 
   }
 
