@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/YWC_HW_TS/static/css/main.48c56240.chunk.css",
-    "main.js": "/YWC_HW_TS/static/js/main.4e06b92c.chunk.js",
-    "main.js.map": "/YWC_HW_TS/static/js/main.4e06b92c.chunk.js.map",
+    "main.js": "/YWC_HW_TS/static/js/main.f44044d1.chunk.js",
+    "main.js.map": "/YWC_HW_TS/static/js/main.f44044d1.chunk.js.map",
     "runtime-main.js": "/YWC_HW_TS/static/js/runtime-main.f3284008.js",
     "runtime-main.js.map": "/YWC_HW_TS/static/js/runtime-main.f3284008.js.map",
     "static/css/2.510409cd.chunk.css": "/YWC_HW_TS/static/css/2.510409cd.chunk.css",
     "static/js/2.84e1462d.chunk.js": "/YWC_HW_TS/static/js/2.84e1462d.chunk.js",
     "static/js/2.84e1462d.chunk.js.map": "/YWC_HW_TS/static/js/2.84e1462d.chunk.js.map",
     "index.html": "/YWC_HW_TS/index.html",
-    "precache-manifest.ec892493576c02d02785183ca721f7d1.js": "/YWC_HW_TS/precache-manifest.ec892493576c02d02785183ca721f7d1.js",
+    "precache-manifest.fecdfb6432621bb3ef253fc9b84e9f23.js": "/YWC_HW_TS/precache-manifest.fecdfb6432621bb3ef253fc9b84e9f23.js",
     "service-worker.js": "/YWC_HW_TS/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/YWC_HW_TS/static/css/2.510409cd.chunk.css.map",
     "static/css/main.48c56240.chunk.css.map": "/YWC_HW_TS/static/css/main.48c56240.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.510409cd.chunk.css",
     "static/js/2.84e1462d.chunk.js",
     "static/css/main.48c56240.chunk.css",
-    "static/js/main.4e06b92c.chunk.js"
+    "static/js/main.f44044d1.chunk.js"
   ]
 }
