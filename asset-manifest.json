@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Kritsatorn/YWC_HW_TS/static/css/main.48c56240.chunk.css",
+    "main.js": "/Kritsatorn/YWC_HW_TS/static/js/main.d6808274.chunk.js",
+    "main.js.map": "/Kritsatorn/YWC_HW_TS/static/js/main.d6808274.chunk.js.map",
+    "runtime-main.js": "/Kritsatorn/YWC_HW_TS/static/js/runtime-main.b610a72b.js",
+    "runtime-main.js.map": "/Kritsatorn/YWC_HW_TS/static/js/runtime-main.b610a72b.js.map",
+    "static/css/2.510409cd.chunk.css": "/Kritsatorn/YWC_HW_TS/static/css/2.510409cd.chunk.css",
+    "static/js/2.84e1462d.chunk.js": "/Kritsatorn/YWC_HW_TS/static/js/2.84e1462d.chunk.js",
+    "static/js/2.84e1462d.chunk.js.map": "/Kritsatorn/YWC_HW_TS/static/js/2.84e1462d.chunk.js.map",
+    "index.html": "/Kritsatorn/YWC_HW_TS/index.html",
+    "precache-manifest.11e1389b340431634706f7d94462a981.js": "/Kritsatorn/YWC_HW_TS/precache-manifest.11e1389b340431634706f7d94462a981.js",
+    "service-worker.js": "/Kritsatorn/YWC_HW_TS/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/Kritsatorn/YWC_HW_TS/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.48c56240.chunk.css.map": "/Kritsatorn/YWC_HW_TS/static/css/main.48c56240.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b610a72b.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.84e1462d.chunk.js",
+    "static/css/main.48c56240.chunk.css",
+    "static/js/main.d6808274.chunk.js"
+  ]
+}
