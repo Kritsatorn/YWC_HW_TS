@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Kritsatorn/YWC_HW_TS/static/css/main.48c56240.chunk.css",
-    "main.js": "/Kritsatorn/YWC_HW_TS/static/js/main.d6808274.chunk.js",
-    "main.js.map": "/Kritsatorn/YWC_HW_TS/static/js/main.d6808274.chunk.js.map",
-    "runtime-main.js": "/Kritsatorn/YWC_HW_TS/static/js/runtime-main.b610a72b.js",
-    "runtime-main.js.map": "/Kritsatorn/YWC_HW_TS/static/js/runtime-main.b610a72b.js.map",
-    "static/css/2.510409cd.chunk.css": "/Kritsatorn/YWC_HW_TS/static/css/2.510409cd.chunk.css",
-    "static/js/2.84e1462d.chunk.js": "/Kritsatorn/YWC_HW_TS/static/js/2.84e1462d.chunk.js",
-    "static/js/2.84e1462d.chunk.js.map": "/Kritsatorn/YWC_HW_TS/static/js/2.84e1462d.chunk.js.map",
-    "index.html": "/Kritsatorn/YWC_HW_TS/index.html",
-    "precache-manifest.11e1389b340431634706f7d94462a981.js": "/Kritsatorn/YWC_HW_TS/precache-manifest.11e1389b340431634706f7d94462a981.js",
-    "service-worker.js": "/Kritsatorn/YWC_HW_TS/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/Kritsatorn/YWC_HW_TS/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.48c56240.chunk.css.map": "/Kritsatorn/YWC_HW_TS/static/css/main.48c56240.chunk.css.map"
+    "main.css": "/YWC_HW_TS/static/css/main.48c56240.chunk.css",
+    "main.js": "/YWC_HW_TS/static/js/main.4e06b92c.chunk.js",
+    "main.js.map": "/YWC_HW_TS/static/js/main.4e06b92c.chunk.js.map",
+    "runtime-main.js": "/YWC_HW_TS/static/js/runtime-main.f3284008.js",
+    "runtime-main.js.map": "/YWC_HW_TS/static/js/runtime-main.f3284008.js.map",
+    "static/css/2.510409cd.chunk.css": "/YWC_HW_TS/static/css/2.510409cd.chunk.css",
+    "static/js/2.84e1462d.chunk.js": "/YWC_HW_TS/static/js/2.84e1462d.chunk.js",
+    "static/js/2.84e1462d.chunk.js.map": "/YWC_HW_TS/static/js/2.84e1462d.chunk.js.map",
+    "index.html": "/YWC_HW_TS/index.html",
+    "precache-manifest.ec892493576c02d02785183ca721f7d1.js": "/YWC_HW_TS/precache-manifest.ec892493576c02d02785183ca721f7d1.js",
+    "service-worker.js": "/YWC_HW_TS/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/YWC_HW_TS/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.48c56240.chunk.css.map": "/YWC_HW_TS/static/css/main.48c56240.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b610a72b.js",
+    "static/js/runtime-main.f3284008.js",
     "static/css/2.510409cd.chunk.css",
     "static/js/2.84e1462d.chunk.js",
     "static/css/main.48c56240.chunk.css",
-    "static/js/main.d6808274.chunk.js"
+    "static/js/main.4e06b92c.chunk.js"
   ]
 }
