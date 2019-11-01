@@ -1,20 +1,18 @@
 import React,{Component} from 'react';
-import { AnnounceState } from './AnnounceType'
+import { AnnounceProps } from './AnnounceType'
 import './Announce.css'
 import 'bootstrap/dist/css/bootstrap.css'
-class Announce extends Component <object,AnnounceState> {
-  constructor(props:object) {
-    super(props)
-  }
+class Announce extends Component <AnnounceProps> {
 
   render(){
+    const { duration } = this.props;
     return(
       <div className="container-fluid box-register">
           <div className="col-12">
             <div className="">ตั้งแต่วันที่</div>
           </div>
           <div className="col-12">
-            <div className="time">27 ก.ย. - 31 ธ.ค. 62</div>
+            <div className="time">{duration}</div>
           </div>
           <div className="col-12">
             <button className="btn btn-announce">

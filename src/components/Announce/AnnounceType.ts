@@ -1,3 +1,3 @@
-export interface AnnounceState {
-  
+export interface AnnounceProps {
+  duration: string;
 }

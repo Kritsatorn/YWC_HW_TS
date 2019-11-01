@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { HeaderProps } from './HeaderState';
+import { HeaderProps } from './HeaderType';
 import './Header.css'
 
 class Header extends Component<object,HeaderProps> {
@@ -19,6 +19,8 @@ class Header extends Component<object,HeaderProps> {
     this.renderNav = this.renderNav.bind(this);
   }
   render() {
+    const navbarItems = this.props;
+    // console.log(navbarItems)
     return(
       <div className="container-fluid">
           <ul className="box">

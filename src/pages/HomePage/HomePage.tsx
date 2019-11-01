@@ -22,29 +22,38 @@ class Home extends Component<object, HomePageState> {
         duration: '',
         detail: '',
         condition: ''
-      }
+      },
+      Navbar: []
     };
 
-    // const data = DataFacade.getNavbar();
-    // if( data !== null){
-    //   data.then(result => {
-    //     this.setState({
-
-    //     })
-    //   })
-    // }
+    const data = DataFacade.getNavbar();
+    if( data !== null){
+      data.then(result => {
+        this.setState({
+          Navbar: result.navbarItems
+        })
+      })
+    }
 
   }
 
 
   render() {
-    console.log(this.state.pageInfo);
+    // console.log(this.state.pageInfo);
+    console.log(this.state.Navbar);
     return (
       <div>
-          <Header />
+          <Header
+            // navbarItems = {this.state.Navbar}
+          />
           <Banner />
-          <Announce />
-          <Detail / >
+          <Announce
+            duration = {this.state.pageInfo.duration}
+          />
+          <Detail
+            detail = {this.state.pageInfo.detail}
+            condition = {this.state.pageInfo.condition}
+          / >
           <FooterLogo />
           <Footer />
       </div>

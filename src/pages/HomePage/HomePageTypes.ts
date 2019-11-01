@@ -1,12 +1,15 @@
 export interface HomePageState {
   num : number;
   pageInfo: {
-    navbarItems: {
-      label: string,
-      href: string
-    }[],
+    navbarItems: Navbar[],
     duration: string,
     detail: string,
     condition: string
-  }
+  },
+  Navbar: Navbar[]
+}
+
+export interface Navbar {
+  label: string;
+  href : string;
 }
