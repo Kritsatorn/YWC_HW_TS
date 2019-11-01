@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "myfont";
+  src: url("https://www.xn--b3caa1e2a7e2b0h2be.com/fonts/TAT/TATSanaChon-Regular.woff2") format('woff');
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("https://www.xn--b3caa1e2a7e2b0h2be.com/fonts/TAT/TATSanaChon-Bold.woff2") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("https://www.xn--b3caa1e2a7e2b0h2be.com/fonts/TAT/TATSanaChon-Regular.woff2") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("https://www.xn--b3caa1e2a7e2b0h2be.com/fonts/TAT/TATSanaChon-Regular.woff2") format('woff');
+  font-style: italic;
+}

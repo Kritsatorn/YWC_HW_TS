@@ -10,7 +10,6 @@ class Footer extends Component<object,FooterState> {
   render() {
     return(
       <div className="mt-5">
-
         <nav className="navbar navbar-light bg-light">
           <div className="nav mx-auto">
             <div className="col">

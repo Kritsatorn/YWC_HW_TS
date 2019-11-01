@@ -54,6 +54,7 @@ class Home extends Component<object, HomePageState> {
             detail = {this.state.pageInfo.detail}
             condition = {this.state.pageInfo.condition}
           / >
+
           <FooterLogo />
           <Footer />
       </div>
