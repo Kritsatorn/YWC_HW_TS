@@ -10,7 +10,7 @@ import './index.css';
 ReactDOM.render(
   <Router history = {history}>
   <Switch>
-    <Route exact={true} path="/" component={Home} />
+    <Route path="/" component={Home} />
   </Switch>
   </Router>,
 document.getElementById('root')
