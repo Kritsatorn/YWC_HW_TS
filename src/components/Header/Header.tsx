@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import { HeaderProps } from './HeaderType';
+import {DataFacade} from '../../DataFacade';
 import './Header.css'
 
 class Header extends Component<object,HeaderProps> {
@@ -7,15 +8,17 @@ class Header extends Component<object,HeaderProps> {
   constructor(props: object) {
     super(props);
     this.state = {
-      navbarItems: [
-        {label: "ลงทะเบียนเข้าร่วมมาตรการ",
-        href: "https://regist.ชิมช้อปใช้.com/Register/"},
-        {label: "ขั้นตอนการเข้าร่วม",
-        href: "https://regist.ชิมช้อปใช้.com/Register/"},
-        {label: "ร้านค้าที่เข้าร่วม",
-        href: "https://regist.ชิมช้อปใช้.com/Register/"},
-      ]
+      navbarItems: []
     }
+    const data = DataFacade.getNavbar();
+    if( data !== null){
+      data.then(result => {
+        this.setState({
+          navbarItems: result.navbarItems
+        })
+      })
+    }
+
     this.renderNav = this.renderNav.bind(this);
   }
   render() {

@@ -13,41 +13,41 @@ class FooterLogo extends Component<object, FooterLogoState> {
       <div >
       <div className="row my-5 mx-auto">
         <div className="col-lg-4 col-12 text-center ig">
-          <img src={image.ktbCall} alt="ktbCall"/>
+          <img src={image.Call3} alt="Call3"/>
         </div>
 
         <div className="col-lg-4 col-12 text-center ig">
-          <img src={image.cgdCall} alt="cgdCall"/>
+          <img src={image.Call2} alt="Call2"/>
         </div>
 
         <div className="col-lg-4 col-12 text-center ig">
-          <img src={image.tatCall} alt="tatCall"/>
+          <img src={image.Call1} alt="Call1"/>
         </div>
       </div>
 
       <div className="row my-5 mx-auto">
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image"src={image.mof} alt="mof"/>
+          <img className="logo-image"src={image.logo1} alt="mof"/>
         </div>
 
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image" src={image.fpo} alt="fpo"/>
+          <img className="logo-image" src={image.logo2} alt="fpo"/>
         </div>
 
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image" src={image.cgd} alt="cgd"/>
+          <img className="logo-image" src={image.logo3} alt="cgd"/>
         </div>
 
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image" src={image.krungthai} alt="krungthai"/>
+          <img className="logo-image" src={image.logo4} alt="krungthai"/>
         </div>
 
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image" src={image.mots} alt="mots"/>
+          <img className="logo-image" src={image.logo5} alt="mots"/>
         </div>
 
         <div className="col-lg-2 col-sm-4 col-4 text-center">
-          <img className="logo-image" src={image.ttt} alt="ttt"/>
+          <img className="logo-image" src={image.logo6} alt="ttt"/>
         </div>
 
       </div>
