@@ -15,10 +15,15 @@ class Announce extends Component <AnnounceProps> {
             <div className="time">{duration}</div>
           </div>
           <div className="col-12">
-            <button className="btn btn-announce">
-              ขณะนี้มีผู้ลงทะเบียนสิทธิมาตรการฯ "ชิมช้อปใช้" ครบตามจำนวนที่กำหนดแล้ว <br/>
-			        ขอขอบพระคุณอย่างยิ่งที่ท่านสนใจในการเข้าร่วมมาตรการฯ
-            </button>
+            <div className="card">
+
+                <p className=" announce ">
+                  ลงทะเบียน เฟส 2<br/>
+                  ตั้งแต่วันที่ 24 ต.ค.62 วันละ 2 รอบ เวลา 6.00 และ 18.00 น.<br/>
+                  (จำกัดจำนวนผู้ลงทะเบียนรอบละ 5 แสนคน รวม 1 ล้านคนต่อวัน)
+                </p>
+
+            </div>
           </div>
       </div>
     );

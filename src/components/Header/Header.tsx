@@ -44,7 +44,7 @@ class Header extends Component<object,HeaderProps> {
             key = {index}
             className="l"
           >
-            {navbarItem.label}
+           <a href={navbarItem.href}  className="l2">{navbarItem.label}</a>
           </li>
         );
       })
